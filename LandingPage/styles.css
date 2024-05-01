@@ -1,0 +1,170 @@
+
+.wrapper{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin:  0px auto;
+    padding: 0px auto;
+    overflow-x: hidden;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    height: screen;
+    
+}
+.logo{
+    font-size: xx-large;
+    color: rgb(79, 47, 109);
+    font-weight: bolder;
+}
+
+
+nav{
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font: bolder;
+    font-size:  large;
+
+}
+button{
+    cursor: pointer;
+}
+.logo{
+    cursor: grab;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+.leftmain{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 60px;
+    align-items: baseline;
+}
+.headingleft{
+    font-size:80px;
+    font: bolder;
+    font-weight: 700;
+    margin-left: 80px;
+}
+span{
+    color: red;
+}
+.textleft{
+    font-size: large;
+    font-weight: bold;
+}
+.rigthmain{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+button{
+    background-color: rgb(13, 12, 12);
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    color: whitesmoke;
+    font-size: larger;
+}
+.bottom{
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    background-color: rgb(13, 12, 12);
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    color: whitesmoke;
+    font-size: larger;
+    
+}
+button {
+    width: 220px;
+    height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+button:active {
+    color: #000
+}
+
+button:active:after {
+    background: transparent;
+}
+
+button:hover:before {
+    opacity: 1;
+}
+
+button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
