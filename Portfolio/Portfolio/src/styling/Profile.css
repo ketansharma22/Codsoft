@@ -1,0 +1,153 @@
+#profile {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+section {
+
+  height: 100vh;
+}
+#rigth {
+  width: 30%;
+  padding-top: 15vh;
+  background-color: rgb(142, 73, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left {
+width: 70%;
+  padding-top:15vh;
+  background-color: rgb(181, 122, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: baseline;
+  padding-left: 40px;
+}
+#name {
+  
+  width: 600px;
+  height: 100px;
+  margin-right: 100px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+
+#wave {
+  
+  width: 50px;
+  height: 50px;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for next loop */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#wave {
+  display: inline-block;
+  font-size: 4rem; /* Adjust size as needed */
+  transform-origin: bottom center;
+
+  animation: wave 2s infinite;
+}
+
+#changing {
+  width: 700px;
+  height: 100px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#spanchange {
+  color: rgb(143, 45, 45);
+}
+p{
+    font-size: x-large;
+    width: 700px;
+    height: 200px;
+    
+}
+span{
+    font-weight: bolder;
+    color: brown;
+}
+
+#icons{
+    margin-right: 300px;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    
+    width: 50px;
+    height: 50px;
+}
+
+#profilelast{
+  
+    margin-top: 20px;
+    margin-right: 380px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#me{
+    margin-bottom: 100px;
+    margin-right: 450px;
+    width: 450px;
+    height: 450px;
+    border-radius:100%;
+    position: absolute;
+}
+
+#me {
+    --m:
+      radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+        0 100%/46% 92% no-repeat,
+      radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+        100% 0/46% 92% no-repeat;
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale(.9);
+    transition: .3s linear;
+    cursor: pointer;
+    
+  }
+  #me:hover {
+    -webkit-mask-position: 7.5% 50%,92.5% 50%;
+            mask-position: 7.5% 50%,92.5% 50%;
+    filter: grayscale(0);
+    
+  }
+  
+  
+
