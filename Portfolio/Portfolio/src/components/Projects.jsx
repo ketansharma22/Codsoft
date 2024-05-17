@@ -5,6 +5,7 @@ import vajra from "../styling/images/vajra.png";
 import random from "../styling/images/randomgif.png";
 import bubble from "../styling/images/bubble.png";
 import weather from "../styling/images/weather.png";
+import portf from '../styling/portfolio.png'
 import pass from "../styling/images/pass.png";
 function Projects() {
   const arr = [
@@ -47,6 +48,14 @@ function Projects() {
       image: pass,
       link: "https://pass-puss.vercel.app/",
       stack:"(ReactJS,CSS)"
+    },
+    {
+      id: 6,
+      name: "Portfolio",
+      desc:"Made my own portfolio , on which you are exploring my project section rn",
+      image: portf,
+      link: "#",
+      stack:"(ReactJS,Firebase,CSS)"
     },
   ];
 

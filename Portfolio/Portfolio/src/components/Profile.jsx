@@ -92,8 +92,8 @@ function Profile() {
           </a>
         </div>
         <div id="profilelast">
-          <Link to="#contact">
-            <button id="btnn">Contact Me</button>
+          <Link to="#contactme" id="btnn" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
+            Contact Me
           </Link>
           <button id="btnn" onClick={openResume}>See my Resume</button>
         </div>
