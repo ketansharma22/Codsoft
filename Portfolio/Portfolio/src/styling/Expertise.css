@@ -1,6 +1,74 @@
-#expertise{
-    width: 100vw;
-    height: 100vh;
+#expertise {
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15vh;
+  align-items: center;
+  gap: 10px;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(18, 17, 17) 24.5%,
+    rgb(19, 19, 19) 66%
+  );
+
+  border-top: 4px solid green;
 }
-/* rgb(212, 247, 122); */
-/* rgb(72, 72, 225); */
+#box {
+  margin-left: 200px;
+  /* background-color: aqua; */
+  width: 60vw;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+#iconss {
+  width: 100px;
+  height: 100px;
+  transition: all 0.3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+#iconss:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#info {
+
+  width: 52vw;
+  height: 30vh;
+  margin-left: 200px;
+    color:white;
+    /* border: 1px solid rgb(17, 210, 75);
+    border-radius: 50px; */
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 12px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+
+#description{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    user-select: none;
+}
+h2{
+    color: rgb(230, 67, 18);
+}
+

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: none;
+}
+
+#cursor-follower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.1s ease-out, opacity 0.2s ease-out;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(50, 85, 122, 0.7), 0 0 20px rgba(31, 42, 53, 0.5);
+}
+
+#cursor-follower:hover {
+    box-shadow: 0 0 15px rgba(219, 225, 231, 0.9), 0 0 30px rgba(154, 176, 199, 0.7);
+}

@@ -16,6 +16,7 @@
   font-size: larger;
   align-items: center;
   position: fixed;
+  z-index: 1;
 }
 #logo {
   margin-left: 100px;

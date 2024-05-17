@@ -1,0 +1,139 @@
+#accomplishments {
+  /* background-image: url("C:\Users\User\Desktop\codsoft\Portfolio\Portfolio\src\styling\images\code.jpeg"); */
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  background: linear-gradient(45deg, #000000 25%, transparent 25%),
+    linear-gradient(
+      -135deg,
+      #000000 25%,
+      transparent 25%,
+      transparent 75%,
+      #000000 75%,
+      #000000
+    );
+  background-size: 50px 50px;
+background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-color: #24292e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#leftdiv {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#leftmain {
+
+  width: 80%;
+  height: 100%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+
+  flex-direction: column;
+
+  position: relative;
+}
+
+#groupp {
+    
+    
+    margin-top: 130px;
+  border-radius: 50px;
+  width: 600px;
+  height: 350px;
+  opacity: .3;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#textwalaleft{
+    display: flex;
+    width: 500px;
+    color: wheat;
+    transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#groupp:hover{
+    opacity: .9;
+    border: 5px solid rgb(255, 9, 9) ;
+}
+#leftmain:hover #textwalaleft{
+    opacity: 1;
+}
+#paraleft{
+    font-size: xx-large;
+}
+
+#rigthdiv  {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+
+}
+#rigthmain {
+
+  width: 80%;
+  height: 100%;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+
+  flex-direction: column;
+
+  position: relative;
+}
+
+#imagerigth {
+    
+    
+  margin-top: 130px;
+border-radius: 50px;
+width: 600px;
+height: 350px;
+opacity: .3;
+transition: 0.5s ease;
+backface-visibility: hidden;
+}
+#textrigth{
+  display: flex;
+  width: 500px;
+  color: wheat;
+  transition: .3s ease;
+opacity: 0;
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+#imagerigth:hover{
+  opacity: .9;
+  border: 5px solid rgb(255, 9, 9) ;
+}
+#rigthmain:hover #textrigth{
+  opacity: 1;
+}
+#pararigth{
+  font-size: xx-large;
+}

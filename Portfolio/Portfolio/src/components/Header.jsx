@@ -14,7 +14,7 @@ function Header() {
             <Link to="expertise" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
               My Expertise
             </Link>
-            <Link to="projects" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
+            <Link to="projects" style={{cursor:"pointer"}} offset={-30} duration={1000} smooth={true} spy={true}>
               Projects
             </Link>
             <Link to="accomplishments" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
