@@ -23,7 +23,7 @@ function Accomplishments() {
       </div>
       <div id="rigthdiv">
         <div id="rigthmain">
-          <a href="https://www.naukri.com/code360/profile/Ketan_s">
+          <a id='href' href="https://www.naukri.com/code360/profile/Ketan_s">
             <img id="imagerigth" src={codninja} />
           </a>
           <div id="textrigth">

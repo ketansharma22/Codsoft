@@ -137,3 +137,68 @@ text-align: center;
 #pararigth{
   font-size: xx-large;
 }
+
+
+@media(max-width:750px){
+  #accomplishments{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;  
+  }
+  #leftdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 500px;
+    height: 400px;
+  }
+  #rigthdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 500px;
+    height: 400px;
+  }
+  #leftmain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;  
+  }
+  #rigthmain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;  
+  }
+  #textwalaleft{
+    max-height: 350px;
+    width: 400px;
+    opacity: 1;
+  }
+  #textrigth{
+    opacity: 1;
+    max-height: 350px;
+    width: 400px;
+  }
+  #href{
+    width: 350px ;
+    height: 400px;
+  }
+  #groupp{
+    margin-top: 0px;
+    width: 350px;
+    height: 350px;
+  }
+  #imagerigth{
+    margin-top: 0px;
+    width: 350px;
+    height: 350px;
+  }
+
+}

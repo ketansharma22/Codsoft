@@ -8,7 +8,7 @@ function Header() {
         <div id="logo">/Ketan</div>
         <div id="items">
           <ul>
-            <Link to="profile" style={{cursor:"pointer"}} offset={-20} duration={1000} spy={true} smooth={true}>
+            <Link id="profilee" to="profile" style={{cursor:"pointer"}} offset={-20} duration={1000} spy={true} smooth={true}>
               Profile
             </Link>
             <Link to="expertise" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>

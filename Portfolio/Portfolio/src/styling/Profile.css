@@ -28,6 +28,7 @@ section {
   align-items: center;
 }
 #left {
+  text-wrap: wrap;
 width: 70%;
   padding-top:15vh;
   /* background-color: rgb(181, 122, 34); */
@@ -95,6 +96,7 @@ width: 70%;
   color: rgb(143, 45, 45);
 }
 p{
+
     font-size: x-large;
     width: 700px;
     height: 200px;
@@ -167,4 +169,43 @@ transform: translateY(0.5em);
 #btnn{
   color: white;
   
+}
+
+
+
+@media (max-width:750px){
+  #me{
+    display: none;
+  }
+  #left{margin-top: 10px;
+    width: 500px;
+    gap: 10px;
+    display: flex;
+    flex-grow: 10px;
+    padding-left: 20px;
+  }
+  #name{
+    width: 200px;
+    height: 160px;
+  }
+  #textt{
+  
+    width: 300px;
+    height: 380px;
+  }
+  #changing{
+    width: 400px;
+    height: 150px;
+  }
+  #icons{
+    display: none;
+  }
+  #profilelast{
+    height: 100px;
+    margin-top: 0px;
+   margin-bottom: 20px;
+  }
+  #btnn{
+    height:75px ;
+  }
 }
