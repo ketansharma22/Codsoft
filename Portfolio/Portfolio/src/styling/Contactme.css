@@ -125,3 +125,44 @@
     transform: scale(.9);
     background-color: #000000;
   }
+
+  #navigation{
+    margin-bottom: 50px;
+    margin-right: 50px;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    gap: 70px;
+  }
+  #anchor{
+    border-radius: 100%;
+    display: flex;
+    transition: ease-in-out .2s;
+  }
+
+  #anchor:hover{
+    transform: scale(1.5);
+  
+  }
+  #top{
+    background-color:transparent;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    transition: all .3s;
+  }
+  #top:hover{
+    background-color: brown;
+    transform: scale(.5);
+  }

@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "../styling/Contactme.css";
 import Alert from '@mui/material/Alert'
-
+import linked from '../styling/linkedin.png'
+import git from '../styling/githublast.png'
+import insta from '../styling/instatransparent.png'
+import { Link } from "react-scroll";
 function Contactme() {
   const [error, setError] = useState("");
   const [email,setEmail] = useState("")
@@ -22,7 +25,11 @@ function Contactme() {
   const handleSubmit= async (e)=>{
     e.preventDefault()
     setError("We'll Catch up soon")
-
+    setUser({
+      mail:"",
+      name:"",
+      messagee:"",
+    })
   }
 
   return (
@@ -48,8 +55,15 @@ function Contactme() {
             </button>
           </center>
         </form>
+       
       </div>
-      
+       <div id="navigation">
+        <a  id="anchor" href="https://www.linkedin.com/in/ketansharma22/"><img  src={linked} /></a>
+        <a id='anchor' href="https://github.com/ketansharma22"><img src={git} /></a>
+        <a id="anchor" href="https://www.instagram.com/ketan_bakshi__/"><img src={insta} /></a>
+
+        <Link to="profile" style={{cursor:"pointer"}} offset={-20} duration={1000} spy={true} smooth={true}><button id="top">  ^ </button></Link>
+       </div>
     </div>
   );
 }

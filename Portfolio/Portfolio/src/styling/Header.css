@@ -20,6 +20,9 @@
 }
 #logo {
   margin-left: 100px;
+  color: rgb(159, 125, 110);
+  font-size: xx-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 ul {
   gap: 100px;
