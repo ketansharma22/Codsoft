@@ -63,12 +63,16 @@
 }
 
 #description{
+  max-width: 100%;
+  max-height: max-content;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
     user-select: none;
 }
 h2{
+  max-width: max-content;
+  max-height: max-content;
     color: rgb(230, 67, 18);
 }
 
