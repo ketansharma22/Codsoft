@@ -11,16 +11,16 @@ function Header() {
             <Link id="profilee" to="profile" style={{cursor:"pointer"}} offset={-20} duration={1000} spy={true} smooth={true}>
               Profile
             </Link>
-            <Link to="expertise" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
+            <Link id="profil" to="expertise" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
               My Expertise
             </Link>
-            <Link to="projects" style={{cursor:"pointer"}} offset={-30} duration={1000} smooth={true} spy={true}>
+            <Link  id="profil" to="projects" style={{cursor:"pointer"}} offset={-30} duration={1000} smooth={true} spy={true}>
               Projects
             </Link>
-            <Link to="accomplishments" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
+            <Link id="profil" to="accomplishments" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
               Accomplishments
             </Link>
-            <Link to="contactme" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
+            <Link id="profil" to="contactme" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
               Contact Me
             </Link>
           </ul>

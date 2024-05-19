@@ -136,9 +136,11 @@ img{
     height: 450px;
     border-radius:100%;
     position: absolute;
+    filter: grayscale(.9);
+    transition: .4s ease-in-out;
 }
 
-#me {
+/* #me {
     --m:
       radial-gradient(circle farthest-side at right,#000 99%,#0000) 
         0 100%/46% 92% no-repeat,
@@ -150,14 +152,14 @@ img{
     transition: .3s linear;
     cursor: pointer;
     
-  }
+  }*/
   #me:hover {
     -webkit-mask-position: 7.5% 50%,92.5% 50%;
             mask-position: 7.5% 50%,92.5% 50%;
     filter: grayscale(0);
-    
+    transform: scale(1.08);
   }
-  
+   
   
 
   

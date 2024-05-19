@@ -8,7 +8,7 @@ import facebook from "../styling/facebook.webp";
 import linkedin from "../styling/linkedin.png";
 import mail from "../styling/mail.webp";
 import instagram from "../styling/insta.png";
-import { HashLink as Link } from "react-router-hash-link";
+import {  Link } from "react-scroll";
 function Profile() {
   const messages = ["Web Developer", "Software Engineer", "UI-UX Designer"];
   const typingSpeed = 100;
@@ -92,7 +92,7 @@ function Profile() {
           </a>
         </div>
         <div id="profilelast">
-          <Link to="#contactme" id="btnn" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
+          <Link to="contactme" id="btnn" style={{cursor:"pointer"}} offset={-20} duration={1000} smooth={true} spy={true}>
             Contact Me
           </Link>
           <button id="btnn" onClick={openResume}>See my Resume</button>

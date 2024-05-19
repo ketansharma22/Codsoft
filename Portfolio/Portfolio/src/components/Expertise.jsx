@@ -99,7 +99,7 @@ function Expertise() {
         </>
       </div>
       <div id="info">
-        <h2>{name}</h2>
+        <h2 id="skillname">{name}</h2>
         <div id="description">{descc}</div>
       </div>
     </div>
