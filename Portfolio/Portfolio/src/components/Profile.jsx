@@ -20,7 +20,7 @@ function Profile() {
 
   function openResume() {
     var resumeUrl =
-      "https://www.dropbox.com/scl/fi/60e0gzb2wpqfrm15vrdsw/TazaResume-1.pdf?rlkey=jht4yz3454zcy7gay1moghe38&st=hv99wl5b&dl=0";
+      "https://www.dropbox.com/scl/fi/uy86y7iv87ktbboi6yrw0/ketanresume.pdf?rlkey=k0ydprys45acml84lzhrkviw9&st=njzk5r02&dl=0";
     window.open(resumeUrl, "_blank");
   }
 
