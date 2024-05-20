@@ -64,7 +64,7 @@
 
 #description{
   max-width: 800px;
-  max-height: 200px;
+  max-height: 300px;
   justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +112,9 @@ h2{
   }
   #skillname{
     max-width:400px ;
+    font-size: larger;
+  }
+  #description{
     font-size: larger;
   }
 }
