@@ -110,6 +110,10 @@ h2{
     width: 50px;
     height: 50px;
   }
+  #skillname{
+    max-width:400px ;
+    font-size: larger;
+  }
 }
 #skillname{
   max-width: 400px;
