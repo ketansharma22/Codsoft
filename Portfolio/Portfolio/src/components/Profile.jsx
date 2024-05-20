@@ -20,7 +20,7 @@ function Profile() {
 
   function openResume() {
     var resumeUrl =
-      "https://www.dropbox.com/scl/fi/uy86y7iv87ktbboi6yrw0/ketanresume.pdf?rlkey=k0ydprys45acml84lzhrkviw9&st=njzk5r02&dl=0";
+      "https://www.dropbox.com/scl/fi/f19cu3f4idnu3t2rrug3j/resumebest.pdf?rlkey=pflt4m61t6jtocbv6ho8gqyo0&st=2k5hoh5v&dl=0";
     window.open(resumeUrl, "_blank");
   }
 
