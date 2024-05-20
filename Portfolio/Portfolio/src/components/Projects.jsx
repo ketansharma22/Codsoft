@@ -71,7 +71,10 @@ function Projects() {
               <h2 id="texxt">{obj.name}</h2>
               <p id="para">{obj.desc} <br/><br/>{obj.stack}</p>
             </div>
-            <button id="click" ><a href={obj.link}>View</a></button>
+              <div id="butons">
+              <button id="click" ><a id="view" href={obj.link}>View</a></button>
+              <button id="click" ><a id="view" href={obj.link}>Code</a></button>
+              </div>
           </div>
         ))}
       </div>

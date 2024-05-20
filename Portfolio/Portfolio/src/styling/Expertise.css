@@ -1,26 +1,39 @@
 #expertise {
-
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 15vh;
+  padding-top: 7vh;
   align-items: center;
   gap: 10px;
-  background: radial-gradient(
-    circle at -8.9% 51.2%,
-    rgb(255, 124, 0) 0%,
-    rgb(255, 124, 0) 15.9%,
-    rgb(255, 163, 77) 15.9%,
-    rgb(255, 163, 77) 24.4%,
-    rgb(18, 17, 17) 24.5%,
-    rgb(19, 19, 19) 66%
-  );
+  /* background-color:
+    rgb(245, 242, 237)
+    ; */
+    background: rgb(5,4,4);
+background: linear-gradient(90deg, rgba(5,4,4,1) 3%, rgba(27,26,26,1) 27%, rgba(65,65,65,1) 41%, rgba(93,87,87,1) 51%, rgba(180,153,153,1) 63%, rgba(221,216,216,1) 84%, rgba(232,227,227,1) 97%, rgba(215,213,213,1) 99%);
 
   border-top: 4px solid green;
 }
+#expertiseheading{
+  max-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: xx-large;
+  color: rgb(15, 15, 15);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  user-select: none;
+  max-height: 100px;
+  background-color: rgb(15, 15, 15);
+border-radius: 20px;
+  color:wheat;
+}
 #box {
-  margin-left: 200px;
+  background-color: rgb(15, 15, 15);
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 50px;
   /* background-color: aqua; */
   width: 60vw;
   height: 50vh;
@@ -45,10 +58,14 @@
 }
 
 #info {
-
+  background-color: rgb(15, 15, 15);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
   width: 52vw;
   height: 30vh;
-  margin-left: 200px;
+  margin-left: 50px;
     color:white;
     /* border: 1px solid rgb(17, 210, 75);
     border-radius: 50px; */

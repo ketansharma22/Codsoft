@@ -1,18 +1,14 @@
 #profile {
   width: 100vw;
   height: 100vh;
-  color: white;
-  background-color: black;
+  color:  rgb(245, 242, 237);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  --color: rgba(96, 90, 90, 0.3);
-  background-color: #191a1a;
-  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 75%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
-      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
-  background-size: 55px 55px;
+  background: rgb(5,4,4);
+  background: linear-gradient(90deg, rgba(5,4,4,1) 3%, rgba(27,26,26,1) 27%, rgba(65,65,65,1) 41%, rgba(93,87,87,1) 51%, rgba(180,153,153,1) 63%, rgba(221,216,216,1) 84%, rgba(232,227,227,1) 97%, rgba(215,213,213,1) 99%);
   
 }
 section {
@@ -28,6 +24,8 @@ section {
   align-items: center;
 }
 #left {
+  background-color: rgb(15, 15, 15);
+  border-bottom-right-radius: 100px;
   text-wrap: wrap;
 width: 70%;
   padding-top:15vh;
@@ -168,8 +166,21 @@ img{
 transform: translateY(0.5em);
 }
 
-#btnn{
-  color: white;
+#btnn {
+  background-color:     rgb(245, 242, 237);
+  color: black;
+  border-radius: 10em;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+}
+#btnn:hover {
+  background-color: #812222;
+  color: rgb(255, 255, 255);
   
 }
 

@@ -85,7 +85,7 @@ function Expertise() {
 
   return (
     <div id="expertise" >
-
+      <div id="expertiseheading">My Expertise</div>
       <div id="box">
         <>
           {arr.map((image) => (
