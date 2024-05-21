@@ -84,6 +84,7 @@ function Projects() {
           </div>
         ))}
       </div>
+      <div id="titleproject" > My <span>Work</span> </div>
     </div>
   );
 }

@@ -187,24 +187,39 @@ transform: translateY(0.5em);
 
 
 @media (max-width:750px){
-  #me{
-    display: none;
+  #profile{
+    color: black;
+    background: rgb(25, 23, 23);
   }
-  #left{margin-top: 10px;
-    width: 500px;
+  #me{
+    top: 16%;
+    left: 55%;
+    width: 150px;
+    height: 150px;
+  }
+  #left{
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    margin-top: 10px;
+    background-color: rgb(224, 210, 210);
+    width: 100vw;
     gap: 10px;
     display: flex;
     flex-grow: 10px;
     padding-left: 20px;
+  }
+  #rigth  {
+    width: 0px;
   }
   #name{
     width: 200px;
     height: 160px;
   }
   #textt{
+    font-size: larger;
   
-    width: 300px;
-    height: 380px;
+    max-width: 300px;
+    max-height: 200px;
   }
   #changing{
     width: 400px;

@@ -12,13 +12,26 @@
   justify-content: center;
 }
 
+#titleproject{
+  color: rgb(15, 15, 15);
+  font-size: xx-large;
+  max-width: 80px;
+  max-height: 500px;
+  display: flex;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  gap: 20px;
+  user-select: none;
+}
+
+
 #projectbox {
   margin-right: 10px;
-  margin-top: 30px;
   background-color: rgb(15, 15, 15);
   border-radius: 90px;
-  width: 92vw;
+  max-width: 80vw;
   height: 90vh;
+  overflow: hidden;
   display: flex;
   gap: 10px;
   align-items: top;
@@ -27,6 +40,7 @@
 }
 
 #objj {
+  user-select: none;
     width: 300px;
     height: 300px;
   display: flex;
@@ -267,7 +281,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 70vh;
+    overflow: auto;
 
+  }
+  #titleproject{
+    color: rgb(15, 15, 15);
+    font-size: xx-large;
+    max-width: 80px;
+    max-height: 500px;
+    display: flex;
+    writing-mode: normal;
+    text-orientation: normal;
+    gap: 20px;
+    user-select: none;
   }
   #objj{
     height: 170px;
@@ -290,5 +317,19 @@
   #para{
     width: 100px;
     height: 100px;
+  }
+  #click{
+    max-height: 40px;
+    background-color: wheat;
+    padding: 0px;
+  }
+  #view{
+    color: #24292e;
+  }
+  #butons{
+    overflow: hidden;
+    max-height: 80px;
+    gap: 10px;
+    max-width: 130px;
   }
 }
