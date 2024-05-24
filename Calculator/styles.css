@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    
+}
+.box{
+    width: 40vw;
+    height: 60vh;
+    background-color: rgba(6, 153, 153, 0.909);
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px;
+    
+    
+}
+.numbers{
+    width: 70%;
+    background-color: rgb(125, 60, 60);
+    max-height:85%;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: left;
+    gap: 30px;
+    overflow: hidden;
+    
+}
+.number{
+    background-color: blue;
+    width: 100px;
+    height: 48px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    border-radius: 100px;
+    cursor: pointer;
+}
+.display{
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    
+}
